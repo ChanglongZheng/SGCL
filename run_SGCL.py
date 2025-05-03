@@ -132,7 +132,7 @@ def eval_mode(best_ckpt_path):
 
 
 if __name__ == "__main__":
-    # 指定使用的GPU
+    # 指定要使用的GPU
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     args = parse_args()
     dataset_name = args.dataset_name
