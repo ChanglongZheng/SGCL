@@ -1,1 +1,1 @@
-Here is the first version; an enhanced version will follow shortly.
+Here's the first version. An updated one will follow shortly.
