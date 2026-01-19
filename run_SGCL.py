@@ -13,7 +13,7 @@ from utils.evaluate import evaluate_with_faiss
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='SimGCL Parameters')
+    parser = argparse.ArgumentParser(description='SGCL Parameters')
     parser.add_argument('--run_id', type=int, default=1, help='Experiment ID')
     parser.add_argument('--dataset_name', type=str, default='douban-book', help='Dataset chosen')
     return parser.parse_args()
